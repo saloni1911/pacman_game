@@ -1,0 +1,44 @@
+TEST
+PLACE 1,3,WEST
+
+MOVE
+
+REPORT
+
+Output: 0,3,WEST
+***************
+TEST
+PLACE 1,3,WEST
+
+Rotate Left
+
+REPORT
+
+Output: 1,3,SOUTH
+***************
+TEST
+PLACE 1,3,WEST
+
+Rotate Right
+
+REPORT
+
+Output: 1,3,NORTH
+***************
+TEST
+PLACE 1,3,WEST
+
+Rotate Left 7 times
+
+REPORT
+
+Output: 1,3,NORTH
+***************
+TEST
+PLACE 1,3,WEST
+
+Rotate Right 7 times
+
+REPORT
+
+Output: 1,3,SOUTH

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Pacman Game</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h1>Pacman <img src="http://3.bp.blogspot.com/-RgsvAjr-YPQ/T19xfUBOHTI/AAAAAAAALx4/mY9IPhUmntw/s1600/pacman.png">ame</h1>
+
+	<section class="parent"> </section>
+
+		<label for="">X-Coordinate</label>
+		<input type="number" name="X" id="x">
+
+		<label for="">Y-Coordinate</label>
+		<input type="number" name="Y" id="y"></br>
+
+		<label for="">Face</label>
+		<input type="text" name="Face" id="face" placeholder="Enter Direction">
+	
+
+	<button id="place">Place</button><br>
+	<button id="move">Move</button>
+	<button id="left">Rotate Left</button>
+	<button id="right">Rotate Right</button>
+	<button id="report">Report</button>
+
+	<h3> X-Coordinate:  <span class="xReport"> </span>
+			 Y-Coordinate:  <span class="yReport"> </span>
+			 Face:  <span class="faceReport"> </span>
+	</h3>
+
+	<script src="jquery.js"></script>
+	<script src="game.js"></script>
+</body>
+</html>
